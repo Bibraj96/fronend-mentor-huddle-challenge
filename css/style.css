@@ -4,14 +4,31 @@
           box-sizing: border-box;
 }
 
-.img-container {
+body {
+  background-color: #674bb1;
+  color: #fff;
+}
+
+.logo-container {
   margin: 60px 0px 0px 75px;
   height: 30px;
   width: 200px;
 }
 
-body {
-  background-color: #674bb1;
-  color: #fff;
+#main-grid {
+  margin: 70px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-grid .showcase-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */

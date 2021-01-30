@@ -2,3 +2,24 @@ body {
   background-color: $main-color;
   color: #fff;
 }
+
+// Logo
+.logo-container {
+  margin: 60px 0px 0px 75px;
+  height: 30px;
+  width: 200px;
+}
+
+// Showcase Grid
+#main-grid {
+  margin: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+
+  .showcase-text {
+    font-family: $seconday-font;
+    font-size: 1.5rem;
+  }
+}
