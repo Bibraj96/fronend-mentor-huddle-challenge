@@ -26,10 +26,17 @@ body {
 
   .showcase-text {
     font-family: $seconday-font;
-    font-size: 1.5rem;
 
     h1 {
+      font-family: $primary-font;
       font-size: 2.5rem;
+      line-height: 3.5rem;
+      padding-right: 80px;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
     }
   }
 
