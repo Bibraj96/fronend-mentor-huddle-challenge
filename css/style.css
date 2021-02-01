@@ -22,9 +22,6 @@ body {
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 #main-grid .showcase-image img {
@@ -33,6 +30,7 @@ body {
 
 #main-grid .showcase-text {
   font-family: "Open Sans", sans-serif;
+  padding: 45px 45px 0px 0px;
 }
 
 #main-grid .showcase-text h1 {
@@ -55,5 +53,7 @@ body {
   padding: 15px 60px;
   font-size: 1.2rem;
   border-radius: 50px;
+  -webkit-box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.3);
 }
 /*# sourceMappingURL=style.css.map */

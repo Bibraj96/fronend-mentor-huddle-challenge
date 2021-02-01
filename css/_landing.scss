@@ -16,7 +16,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
-  align-items: center;
 
   .showcase-image {
     img {
@@ -26,6 +25,7 @@ body {
 
   .showcase-text {
     font-family: $seconday-font;
+    padding: 45px 45px 0px 0px;
 
     h1 {
       font-family: $primary-font;
@@ -48,5 +48,6 @@ body {
     padding: 15px 60px;
     font-size: 1.2rem;
     border-radius: 50px;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.3);
   }
 }
