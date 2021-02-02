@@ -20,7 +20,7 @@ body {
 
   .showcase-image {
     img {
-      width: 100%;
+      max-width: 100%;
     }
   }
 
@@ -50,6 +50,12 @@ body {
     font-size: 1.2rem;
     border-radius: 50px;
     box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      cursor: pointer;
+      background-color: $secondary-color;
+      color: #fff;
+    }
   }
 }
 
@@ -65,3 +71,6 @@ body {
     border-radius: 50%;
   }
 }
+
+// Media Queries
+@import "media";
