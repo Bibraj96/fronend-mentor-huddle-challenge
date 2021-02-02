@@ -1,0 +1,14 @@
+@media (max-width: 500px) {
+  // Showcase
+  #main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .showcase-image {
+    img {
+      max-width: 300px;
+    }
+  }
+}
